@@ -1,0 +1,55 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <form action="/Home/Authenticate">
+            <table border="0" style="width: 252px; height: 60px">
+                <tr>
+                    <td><label>Address:</label></td>
+                    <td><input id="address" type="text" value="https://readifyroadshowmel.sharepoint.com/sites/shailen" /></td>
+                </tr>
+                <tr>
+                    <td><label>Customer ID:</label></td>
+                    <td><input id="username" type="text" value="admin@readifyroadshowmel.onmicrosoft.com" /></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td style="height: 40px"><input id="password" type="password" /></td>
+                </tr>
+                <tr>
+                    <td><label>Wctx:</label></td>
+                    <td style="height: 40px"><input id="wctx" type="password" /></td>
+                </tr>
+                <tr>
+                    <td><label>Wtrealm:</label></td>
+                    <td style="height: 40px"><input id="wtrealm" type="password" /></td>
+                </tr>
+                <tr>
+                    <td><label>WReply:</label></td>
+                    <td style="height: 40px"><input id="wreply" type="password" /></td>
+                </tr>
+                <tr>
+                    <td><label>STS Role:</label></td>
+                    <td style="height: 40px"><input id="stsrole" type="password" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input class="submitButton" type="submit" name="Submit" value="Submit" />
+                        </label>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
